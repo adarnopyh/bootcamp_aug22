@@ -1,0 +1,143 @@
+*,
+*::before,
+*::after {
+  /* box-sizing: outline-box; */
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: auto;
+  max-width: 950px;
+  max-height: 550px;
+  outline: 1px solid red;
+}
+
+.nav-top {
+  margin: auto;
+  padding: 10px;
+  outline: 1px solid rgb(199, 20, 20);
+}
+
+.nav-top-icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-top_search {
+  display: flex;
+  align-items: center;
+}
+
+.group-left {
+  display: flex;
+  gap: 0.5em;
+}
+
+.group-center {
+  display: flex;
+}
+
+.group-center ul {
+  display: flex;
+  align-content: space-between;
+  gap: 5em;
+}
+
+.group-center li {
+  margin-right: 15px;
+}
+
+.group-right ul {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+/*
+ .search_input{
+  padding: 2px;
+  font-size: 15px;
+  border: none;
+  border-radius: 100px;
+
+} */
+.sally {
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.profile-background {
+  background-color: black;
+  opacity: 80%;
+  height: 360px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* pasted! this is for search input in nav start */
+form {
+  color: #555;
+  display: flex;
+  padding: 2px;
+  border: none;
+  border-radius: 100px;
+}
+
+input[type=search] {
+  border: none;
+  background: transparent;
+  margin: 0;
+  padding: 7px 8px;
+  font-size: 14px;
+  color: inherit;
+  border: none;
+  border-radius: 100px;
+}
+
+input[type=search]::-moz-placeholder {
+  color: #66676B;
+}
+
+input[type=search]:-ms-input-placeholder {
+  color: #66676B;
+}
+
+input[type=search]::placeholder {
+  color: #66676B;
+}
+
+input[type=search]:focus {
+  box-shadow: 0 0 3px 0 #1183d6;
+  border-color: #1183d6;
+  outline: none;
+}
+
+form.search_input {
+  border: none;
+  padding: 0;
+}
+
+input.search_input {
+  border: none;
+  width: 100%;
+  padding: 9px 4px 9px 40px;
+  background: url(assets/search.svg);
+  background-repeat: no-repeat;
+  background-position: 13px;
+  background-color: #F1F2F5;
+}
+
+/* pasted! this is for search input in nav finish */
+.profile-background {
+  margin: auto;
+  max-width: 950px;
+  /* outline: 1px solid red;  */
+}
+
+.section-top {
+  margin: -30px 0 0 30px;
+  display: flex;
+  align-items: center;
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,84 @@
+.block {
+  display: block;
+  width: 100px;
+  height: 20px;
+  background-color: red;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-SemiBold.ttf);
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-Bold.ttf);
+  font-weight: 700;
+}
+
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-Italic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-SemiBoldItalic.ttf);
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Cool Font';
+  src: url(assets/Ibarra_Real_Nova/static/IbarraRealNova-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+h1{
+  font-weight: 700;
+}
+
+h2{
+  font-weight: 600;
+}
+
+h3{
+  font-weight: 500;
+}
+
+p{
+  font-weight: 400;
+}
+
+
+.page.one{
+  font-family: 'Cool Font', cursive;
+}
+
+.page .body-two{
+  font-style: italic;
+}

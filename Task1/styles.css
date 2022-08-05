@@ -1,0 +1,131 @@
+
+
+/* .text{
+    color: white;
+    font-size: 64px;
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    height: 64px;
+    top: 0px;
+    position: absolute;
+    top: calc(50% - 64px);
+} */
+
+/*
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.image{
+    background-color: red;
+    height: 10vh;
+    width: 100%;
+}
+
+.card-body{
+
+    padding: 0 15px;
+}
+
+h4{
+    color: aquamarine;
+}
+
+.card{
+    height: 100%;
+    width: 50%;
+    border: 2px tomato solid;
+    border-radius: 2px;
+    padding: 0 15px;
+}
+
+button{
+    font-size: 24px;
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px;
+
+}
+
+*/
+
+:root{
+    --background:  #81B98D;
+    --color-white: #FFFFFF;
+    --nav-hoover: #00350B;
+    --buttons: #007519;
+    --light-theme: #D7EDDC;
+    
+    --background_temp: rgb(42, 205, 226);
+    /* --color_blue: #4066A5;
+    --gradient: linear-gradient(180deg, #FFFFFF 0%, #F2F5FA 100%);
+    --fonts_nav: #6A707B;
+    --fonts_nav_hover: rgb(45, 57, 78);
+    --fonts_header: #131821; */
+
+}
+
+*,
+*::before,
+*::after {
+    /* box-sizing: outline-box; */
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Inter";
+    src: url("../Task1/assets/fonts/Inter-Regular.woff2") format("woff");
+    font-weight: regular;
+    font-style: normal;
+}
+
+
+
+body{
+    background-color: var(--background);
+}
+
+
+.header {
+    margin: auto;
+    width: 100%;
+    max-width: 1200px;
+
+    display: flex;
+    align-items: center;
+    background-color: var(--background);
+    /* outline: 1px solid red; */
+}
+
+.header-nav { 
+    margin-top: 0.15em;
+    margin-right: 0.67em;
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    /* outline: 1px solid black; */
+}
+
+
+
+.nav_link {
+    text-transform: capitalize;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+
+    padding: 0.73em;
+    text-decoration: none;
+    color: var(--fonts_nav);
+    /* outline: 1px solid black; */
+}

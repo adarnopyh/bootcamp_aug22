@@ -1,0 +1,43 @@
+.circle {
+    display: block;
+    width: 600px;
+    height: 600px;
+    animation: cool-rotate 2s infinite;
+    border-radius: 20%;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(255, 228, 0, 1) 11%, rgba(86, 198, 45, 1) 32%, rgba(106, 143, 194, 1) 54%, rgba(255, 0, 241, 1) 74%, rgba(148, 187, 233, 1) 100%);
+  }
+  
+  
+  @keyframes cool-rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    10% {
+      transform: rotate(35deg);
+    }
+  
+  
+    50% {
+      transform: translateY(200px);
+      background: radial-gradient(circle, rgba(18, 174, 202, 1) 0%, rgba(255, 228, 0, 1) 91%, rgba(86, 198, 45, 21) 32%, rgba(106, 143, 194, 1) 54%, rgba(255, 22, 241, 1) 74%, rgba(148, 187, 233, 1) 100%);
+  
+    }
+  
+    75% {
+      transform: rotate(276deg);
+    }
+  
+    78%{
+      transform: translateX(200px);
+    }
+  
+    100% {
+      transform: rotate(360deg)
+    }
+  }
+  
+  .circle:hover {
+    transform: rotate(180deg);
+  }
