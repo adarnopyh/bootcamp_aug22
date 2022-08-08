@@ -1,0 +1,47 @@
+*,
+*::before,
+*::after {
+  /* box-sizing: outline-box; */
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  margin: 0;
+}
+
+.main-content{
+  display: grid;
+  grid-template-columns: repeat(10, 1fr) ;
+  gap: 20px;
+  padding: 30%;
+
+
+}
+
+.squares{
+  background-color: antiquewhite;
+  padding: 20px;
+  min-height: 100px;  
+}
+.cross::before {
+  content: "X";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.circle::before{
+  content: "O";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.winn::before{
+  content: "Congratulations! You win!";
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+
