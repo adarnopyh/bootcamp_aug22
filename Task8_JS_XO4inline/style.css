@@ -1,47 +1,25 @@
-*,
-*::before,
-*::after {
-  /* box-sizing: outline-box; */
-  box-sizing: border-box;
-  font-family: 'Montserrat', sans-serif;
-  font-style: normal;
-  margin: 0;
+:root {
+  --size: 25px;
 }
 
-.main-content{
-  display: grid;
-  grid-template-columns: repeat(10, 1fr) ;
-  gap: 20px;
-  padding: 30%;
-
-
+.cell {
+  display: block;
+  width: var(--size);
+  height: var(--size);
+  border: 2px red solid;
 }
 
-.squares{
-  background-color: antiquewhite;
-  padding: 20px;
-  min-height: 100px;  
+.cell.o{
+  background-color: green;
 }
-.cross::before {
-  content: "X";
-  font-size: 30px;
+
+.cell.x{
+  background-color: black;
+}
+
+.wrapper {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 290px; /* (25 +(2*2))*10 */
 }
-
-.circle::before{
-  content: "O";
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-
-.winn::before{
-  content: "Congratulations! You win!";
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-}
-
-
