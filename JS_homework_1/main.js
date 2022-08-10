@@ -23,6 +23,14 @@ const newItem = document.createElement('li');
 newItem.innerHTML = '<a href="/products">contacts</a>';
 console.log(newItem);
 
+for (let i = 0; i < 10; i++) {
+    for (let j = 0; j < 10; j++) {
+        const element = document.createElement('div');
+        document.body.append(element);
+    }
+    
+}
+
 // listItem.parentNode.removeChild(listItem);
 
 
